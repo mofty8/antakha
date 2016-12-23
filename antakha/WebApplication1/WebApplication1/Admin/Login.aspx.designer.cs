@@ -7,10 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace antakha.Admin {
+namespace WebApplication1.Admin {
     
     
-    public partial class login {
+    public partial class Login {
         
         /// <summary>
         /// form1 control.
@@ -28,7 +28,7 @@ namespace antakha.Admin {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.label1 Label;
+        protected global::System.Web.UI.WebControls.Label Label;
         
         /// <summary>
         /// txtLoginId control.
@@ -49,13 +49,13 @@ namespace antakha.Admin {
         protected global::System.Web.UI.WebControls.TextBox txtPassword;
         
         /// <summary>
-        /// btnLogin control.
+        /// button1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnLogin;
+        protected global::System.Web.UI.WebControls.Button button1;
         
         /// <summary>
         /// lblAlert control.
