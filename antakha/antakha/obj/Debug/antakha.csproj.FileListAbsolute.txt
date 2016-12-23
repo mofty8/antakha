@@ -31,3 +31,6 @@ C:\Users\Mofty\Desktop\project\antakha\antakha\antakha\bin\Microsoft.CodeDom.Pro
 C:\Users\Mofty\Desktop\project\antakha\antakha\antakha\obj\Debug\antakha.csprojResolveAssemblyReference.cache
 C:\Users\Mofty\Desktop\project\antakha\antakha\antakha\obj\Debug\antakha.dll
 C:\Users\Mofty\Desktop\project\antakha\antakha\antakha\obj\Debug\antakha.pdb
+C:\Users\Mofty\Desktop\antakha\antakha\obj\Debug\antakha.csprojResolveAssemblyReference.cache
+C:\Users\Mofty\Desktop\antakha\antakha\obj\Debug\antakha.dll
+C:\Users\Mofty\Desktop\antakha\antakha\obj\Debug\antakha.pdb
