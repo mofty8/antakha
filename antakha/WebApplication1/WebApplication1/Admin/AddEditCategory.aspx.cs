@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-
+using WebApplication1.BusinessLayer;
 namespace WebApplication1.Admin
 {
     public partial class AddEditCategory : System.Web.UI.Page
@@ -12,6 +12,17 @@ namespace WebApplication1.Admin
         protected void Page_Load(object sender, EventArgs e)
         {
 
+        }
+
+        protected void btnsubmitCategory_Click(object sender, EventArgs e)
+        {
+            ShoppingCart k = new ShoppingCart
+            {
+                CategoryName = txtCategoryName.Text
+        };
+            k.AddNewCategory();
+            txtCategoryName.Text = string.Empty;
+            Response.Redirect("~/Admin/AddNewProduct.aspx");
         }
     }
 }

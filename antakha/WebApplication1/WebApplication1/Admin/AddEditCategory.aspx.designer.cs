@@ -40,13 +40,13 @@ namespace WebApplication1.Admin {
         protected global::System.Web.UI.WebControls.Label Label1;
         
         /// <summary>
-        /// txtCategoryName control.
+        /// txtcategoryname control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtCategoryName;
+        protected global::System.Web.UI.WebControls.TextBox txtcategoryname;
         
         /// <summary>
         /// btnsubmitCategory control.

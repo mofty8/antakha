@@ -66,7 +66,7 @@
                 <asp:Label ID="Label1" runat="server" Text="Category Name"></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="txtCategoryName" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtcategoryname" runat="server"></asp:TextBox>
             </td>
         </tr>
         <tr>
@@ -76,7 +76,7 @@
         <tr>
             <td class="auto-style2">&nbsp;</td>
             <td>
-                <asp:Button ID="btnsubmitCategory" runat="server" Height="70px" Text="Submit" Width="183px" />
+                <asp:Button ID="btnsubmitCategory" runat="server" Height="70px" Text="Submit" Width="183px" OnClick="btnsubmitCategory_Click" />
             </td>
         </tr>
         <tr>
