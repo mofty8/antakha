@@ -7,14 +7,16 @@ using System.Web.UI.WebControls;
 
 namespace WebApplication1.Admin
 {
-    public partial class Admin : System.Web.UI.MasterPage
+    public partial class AddNewProduct : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Session["AntakhaAdmin"]== null)
-            {
-                Response.Redirect("~/Admin/Login.aspx");
-            }
+
+        }
+
+        protected void btnSubmit_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
